@@ -1,4 +1,4 @@
-import { Children } from "react";
+
 
 const TechCard = ({ techName, image}) => {
   return (

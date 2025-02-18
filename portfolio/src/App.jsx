@@ -3,6 +3,10 @@ import Navbar from "../components/Navbar";
 import IntroSection from "../components/IntroSection";
 import TechStackSection from "../components/TechStackSection";
 import Timeline from "../components/infoSection";
+import RelevantCourseWorkSection from "../components/RelevantCourseWorkSection";
+import Footer from "../components/footer";
+// import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+
 function App() {
   return (
     <>
@@ -12,6 +16,11 @@ function App() {
           <IntroSection />
           <TechStackSection />
           <Timeline />
+          <RelevantCourseWorkSection />
+          <Footer />
+
+          {/* Project page  */}
+          {/* Contacts page */}
         </article>
       </main>
     </>

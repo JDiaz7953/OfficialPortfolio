@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 
-// Dummy data (replace with your own)
+
 const experianceTimelineData = [
   {
     date: "Jan 2023 - Present",
@@ -41,14 +41,12 @@ const educationTimelineData = [
       "Pursuing  a Minor in Cyber Secuirty ",
       "Collaborated with the design team to create a consistent UI",
     ],
-  }
-  
-
+  },
 ];
 
 const Timeline = () => {
   const [active, setActive] = useState(null);
-  const [career, setCareer] = useState(experianceTimelineData)
+  const [career, setCareer] = useState(experianceTimelineData);
 
   useEffect(() => {
     if (active === "work") {
