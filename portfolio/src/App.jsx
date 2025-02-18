@@ -2,7 +2,7 @@ import "./App.css";
 import Navbar from "../components/Navbar";
 import IntroSection from "../components/IntroSection";
 import TechStackSection from "../components/TechStackSection";
-
+import Timeline from "../components/infoSection";
 function App() {
   return (
     <>
@@ -11,6 +11,7 @@ function App() {
         <article className="mt-8 flex flex-col gap-16 pb-16">
           <IntroSection />
           <TechStackSection />
+          <Timeline />
         </article>
       </main>
     </>
