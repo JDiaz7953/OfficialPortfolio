@@ -5,24 +5,33 @@ import TechStackSection from "../components/TechStackSection";
 import Timeline from "../components/infoSection";
 import RelevantCourseWorkSection from "../components/RelevantCourseWorkSection";
 import Footer from "../components/footer";
-// import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import ProjectSection from "../components/ProjectSection";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+// TO DO ADD CONTACT PAGE
 
 function App() {
   return (
     <>
-      <Navbar />
-      <main>
-        <article className="mt-8 flex flex-col gap-16 pb-16">
-          <IntroSection />
-          <TechStackSection />
-          <Timeline />
-          <RelevantCourseWorkSection />
-          <Footer />
-
-          {/* Project page  */}
-          {/* Contacts page */}
-        </article>
-      </main>
+      <Router>
+        <Navbar />
+        <main>
+          <article className="mt-8 flex flex-col gap-16 pb-16">
+            <Switch>
+              <Route exact path="/">
+                <IntroSection />
+                <TechStackSection />
+                <Timeline />
+                <RelevantCourseWorkSection />
+              </Route>
+              <Route exact path="/projects">
+                <ProjectSection />
+              </Route>
+            </Switch>
+            <Footer />
+            {/* Contacts page */}
+          </article>
+        </main>
+      </Router>
     </>
   );
 }

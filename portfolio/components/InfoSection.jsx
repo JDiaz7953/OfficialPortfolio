@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 
-
 const experianceTimelineData = [
   {
     date: "Jan 2023 - Present",
