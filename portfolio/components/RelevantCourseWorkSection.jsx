@@ -7,7 +7,7 @@ const RelevantCourseWorkSection = () => {
           <ul>
             <li className="text-white font-semibold text-xl mt-4 ">
               Data Stuctures and Abstractions
-              <ul className="ml-10 mt-1 text-base">
+              <ul className="ml-10 mt-1 text-base text-slate-200">
                 <li className="list-disc mt-3">
                   Implemented core data structures—such as linked lists, trees,
                   and graphs—to solve computational problems.
@@ -21,7 +21,7 @@ const RelevantCourseWorkSection = () => {
 
             <li className="text-white font-semibold text-xl mt-4 ">
               Software Engineering
-              <ul className="ml-10 mt-1 text-base">
+              <ul className="ml-10 mt-1 text-base text-slate-200">
                 <li className="list-disc mt-3 ">
                   Participated in team projects to plan, design, and develop
                   software using industry-standard practices and methodologies
@@ -35,7 +35,7 @@ const RelevantCourseWorkSection = () => {
             </li>
             <li className="text-white font-semibold text-xl mt-4 ">
               Database Management System
-              <ul className="ml-10 mt-1 text-base">
+              <ul className="ml-10 mt-1 text-base text-slate-200">
                 <li className="list-disc mt-3">
                   Designed and modeled relational databases, applying
                   normalization and integrity constraints.
@@ -48,7 +48,7 @@ const RelevantCourseWorkSection = () => {
             </li>
             <li className="text-white font-semibold text-xl mt-4 ">
               Computer Programming
-              <ul className="ml-10 mt-1 text-base">
+              <ul className="ml-10 mt-1 text-base text-slate-200">
                 <li className="list-disc mt-3">
                   Built foundational coding skills by writing programs that
                   solve practical problems, often starting with introductory

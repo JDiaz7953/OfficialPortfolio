@@ -4,32 +4,14 @@ import { useState, useEffect } from "react";
 
 const experianceTimelineData = [
   {
-    date: "Jan 2023 - Present",
+    date: "May 2024 - August 2024",
     company: "Citizens",
-    role: "Software Engineer",
+    role: "Corperate Security & Resiliance Intern",
     details: [
-      "Implemented new features using React and Node.js",
-      "Collaborated with the design team to create a consistent UI",
+      "Monitored and triaged an average of 30-40 security alerts per day using SIEM tools. reducing incident response times by 25%.",
+      "Collected, reviewed, and analyzed data to ensure compliance with SLAs, policies, and regulatory requirements, creating actionable reports and insights.",
     ],
-  },
-  {
-    date: "Jun 2021 - Dec 2022",
-    company: "Tech Startup",
-    role: "Frontend Developer",
-    details: [
-      "Built a reusable component library with TailwindCSS",
-      "Optimized application performance and SEO",
-    ],
-  },
-  {
-    date: "Sep 2019 - May 2021",
-    company: "Another Company",
-    role: "Web Developer",
-    details: [
-      "Maintained and updated the company website",
-      "Integrated REST APIs for various features",
-    ],
-  },
+  }
 ];
 const educationTimelineData = [
   {
@@ -99,9 +81,9 @@ const Timeline = () => {
                   <h4 className="text-md font-normal text-gray-700 dark:text-gray-300">
                     {item.role}
                   </h4>
-                  <ul className="list-disc list-inside text-gray-600 dark:text-gray-400 mt-2">
+                  <ul className="list-disc list-inside text-gray-600 dark:text-gray-400 mt-0">
                     {item.details.map((detail, i) => (
-                      <li key={i}>{detail}</li>
+                      <li className="mt-2" key={i}>{detail}</li>
                     ))}
                   </ul>
                 </div>
