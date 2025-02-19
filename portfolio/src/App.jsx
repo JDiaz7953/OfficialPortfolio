@@ -6,6 +6,7 @@ import Timeline from "../components/infoSection";
 import RelevantCourseWorkSection from "../components/RelevantCourseWorkSection";
 import Footer from "../components/footer";
 import ProjectSection from "../components/ProjectSection";
+import ContactForm from "../components/ContactSection";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // TO DO ADD CONTACT PAGE
 
@@ -25,6 +26,9 @@ function App() {
               </Route>
               <Route exact path="/projects">
                 <ProjectSection />
+              </Route>
+              <Route exact path="/contacts">
+              <ContactForm />
               </Route>
             </Switch>
             <Footer />
