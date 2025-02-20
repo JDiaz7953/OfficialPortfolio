@@ -25,7 +25,7 @@ const educationTimelineData = [
   },
 ];
 
-const Timeline = () => {
+const InfoSection = () => {
   const [active, setActive] = useState(null);
   const [career, setCareer] = useState(experianceTimelineData);
 
@@ -96,4 +96,4 @@ const Timeline = () => {
   );
 };
 
-export default Timeline;
+export default InfoSection;
