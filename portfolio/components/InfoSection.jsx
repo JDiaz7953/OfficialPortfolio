@@ -19,8 +19,8 @@ const educationTimelineData = [
     company: "University of Rhode Island",
     role: "BS in Computer Science",
     details: [
-      "Pursuing  a Minor in Cyber Secuirty ",
-      "Collaborated with the design team to create a consistent UI",
+      "Currently pursuing a bachelors in Computer Science ",
+      "Currently pursuing a Minor in Cyber Security",
     ],
   },
 ];
@@ -46,7 +46,7 @@ const Timeline = () => {
       <div>
         <div
           className={
-            "w-176 h-9 bg-slate-700  p-1 rounded-lg flex gap-1  justify-center mb-3"
+            "w-[vw100] h-9 bg-slate-700  p-1 rounded-lg flex gap-1  justify-center mb-3"
           }
         >
           <button
@@ -83,7 +83,7 @@ const Timeline = () => {
                   </h4>
                   <ul className="list-disc list-inside text-gray-600 dark:text-gray-400 mt-0">
                     {item.details.map((detail, i) => (
-                      <li className="mt-2" key={i}>{detail}</li>
+                      <li className="mt-2 flex" key={i}> - {detail}</li>
                     ))}
                   </ul>
                 </div>

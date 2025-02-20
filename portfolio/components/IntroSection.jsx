@@ -7,11 +7,11 @@ const IntroSection = () => {
             Hello There I&apos;m Jaiden
           </h1>
           <p className=" mt-2 text-md font-primary text-white">
-            22-year-old-full-stack developer from The United State
+            I am a 22-year-old-full-stack developer from The United States
           </p>
           <p className="mt-2 text-md font-primary text-white">
-            I like to develop aapplcaitions that are dedicated towards helping
-            other people, love to run and lift weights
+            I enjoy developing applications that are dedicated to helping others. I also love running
+            and lifting weights—really, anything that involves being outside during my free time.
           </p>
           <section className="mt-8 flex items-center gap-8">
             <button

@@ -4,7 +4,7 @@ const TechStackSection = () => {
     <>
       <section className="mt-4 ">
         <h2 className="text-3xl font-bold gap-4 text-white">Technical Skills</h2>
-        <div className="flex gap-3 flex-wrap cursor-default">
+        <div className="flex gap-3 flex-wrap cursor-default ml-1">
           <TechCard
             techName={"JavaScript"}
             image={
