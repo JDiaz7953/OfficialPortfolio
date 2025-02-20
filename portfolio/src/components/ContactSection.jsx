@@ -3,7 +3,7 @@ export default function ContactForm() {
     <div>
       <h1 className="text-4xl text-white font-bold ">Contact me.</h1>
       <div className=" p-4 flex justify-center ">
-        <div className=" w-140 h-90 ml-5 justify-center mt-10  bg-slate-800 rounded-md p-6 shadow-lg">
+        <div className=" w-130 h-90 ml-5 justify-center mt-10  bg-slate-800 rounded-md p-6 shadow-lg">
           <h3 className="text-xl text-slate-200 mt-2 font-bold"> Phone: <span className="font-medium"> 401-280-3880</span></h3>
           <h3 className="text-xl text-slate-200 mt-2 font-bold">
             {" "}
