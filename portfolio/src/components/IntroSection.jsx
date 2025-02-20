@@ -90,7 +90,7 @@ const IntroSection = () => {
           </section>
         </div>
         <div className="w-96">
-          <img src="src\assets\PortfolioPic.png" alt="" />
+          <img src="/PortfolioPic.png" alt="" />
         </div>
       </section>
     </>
