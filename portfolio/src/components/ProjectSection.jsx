@@ -14,7 +14,7 @@ const ProjectSection = () => {
           chip1={<Chip skill={"React"} />}
           chip2={<Chip skill={"JavaScript"} />}
           chip4={<Chip skill={"TailwindCSS"} />}
-          img={"src/assets/ReelQuestSH.png"}
+          img={"/ReelQuestSH.png"}
           url={"https://github.com/JDiaz7953/ReelQuest"}
         />
 
@@ -27,7 +27,7 @@ const ProjectSection = () => {
           chip2={<Chip skill={"JavaScript"} />}
           chip4={<Chip skill={"MongoDB"} />}
           url={"https://github.com/JDiaz7953/Book-RESTfulAPI"}
-          img={"src/assets/MongoBookSH.png"}
+          img={"/MongoBookSH.png"}
         />
         <Card
           title={"Tip Calculator"}
@@ -38,7 +38,7 @@ const ProjectSection = () => {
           chip2={<Chip skill={"JavaScript"} />}
           chip4={<Chip skill={"TailwindCSS"} />}
           url={"https://github.com/JDiaz7953/TipCalc"}
-          img={"src/assets/TipCalcSH.png"}
+          img={"/TipCalcSH.png"}
         />
         <Card
           title={"CLI Pokemon Game"}
@@ -47,7 +47,7 @@ const ProjectSection = () => {
           }
           chip1={<Chip skill={"Go"} />}
           url={"https://github.com/JDiaz7953/PokeDex"}
-          img={"src/assets/PokeCLISH.png"}
+          img={"/PokeCLISH.png"}
         />
       </section>
     </div>

@@ -15,7 +15,7 @@ const IntroSection = () => {
           </p>
           <section className="mt-8 flex items-center gap-8">
             <button
-              onClick={() => window.open("../src/assets/Resume.pdf")}
+              onClick={() => window.open("/Resume.pdf")}
               className=" items-center flex font-semibold gap-2 text-sm justify-center transition delay-150 duration-100 text-white border border-slate-500 rounded-md px-5 py-1 h-9 cursor-pointer hover:bg-slate-700 hover:border-1  "
             >
               Resume{" "}
