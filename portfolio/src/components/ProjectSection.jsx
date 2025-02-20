@@ -1,5 +1,5 @@
 import Chip from "./Chip";
-import Card from "./card";
+import Card from "./Card";
 // TO DO : ADD PICTURES TO EACH CARD AND CORRECT LINKS TO REPOS
 const ProjectSection = () => {
   return (
